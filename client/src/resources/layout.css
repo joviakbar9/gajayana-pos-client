@@ -1,0 +1,144 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 5px;
+}
+
+.ant-layout-has-sider {
+  padding: 4px !important;
+}
+.ant-layout-sider {
+  border-radius: 10px !important;
+}
+.ant-layout-sider-children {
+  padding-top: 15px;
+  padding-right: 8px;
+  height: 95vh;
+}
+.ant-menu-item{
+  padding-left: 12px !important;
+}
+.ant-menu-submenu-title{
+  padding-left: 12px !important;
+}
+
+.ant-menu-sub{
+  padding-left: 16px !important;
+}
+
+/* sub menu laporan */
+/* .ant-menu-item-only-child{
+  padding-left: 28px !important;
+} */
+
+.ant-layout-header{
+    margin: 0 10px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.anticon svg {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+
+.logo h3{
+  color:#32c2ee !important;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 12px;
+  padding-top: 2px;
+  padding-bottom: 35px;
+}
+
+.ant-menu-item-selected{
+  background-color: #047979 !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cart-count{
+  cursor: pointer;
+  position: absolute;
+  right: 3%;
+}
+
+.spinner{
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+.ant-layout-content{
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+/* date picker style */
+.ant-picker-month-btn{
+  background-color: white !important;
+  color: black !important;
+}
+.ant-picker-year-btn{
+  background-color: white !important;
+  color: black !important;
+}
+.ant-picker-header-super-prev-btn{
+  background-color: white !important;
+  color: black !important;
+}
+.ant-picker-header-prev-btn{
+  background-color: white !important;
+  color: black !important;
+}
+.ant-picker-header-next-btn{
+  background-color: white !important;
+  color: black !important;
+}
+.ant-picker-header-super-next-btn{
+  background-color: white !important;
+  color: black !important;
+}
+
+/* button{
+  background-color: rgb(15, 155, 15) !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none;
+  outline: none;
+} */
+
+.ant-modal-close-x{
+  background-color: white !important;
+  color: black !important;
+}
+
+.d-flex-justify-content-between-align-items-right{
+  padding-left: 85% !important;
+}
