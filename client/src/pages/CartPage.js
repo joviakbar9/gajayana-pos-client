@@ -138,7 +138,7 @@ function CartPage() {
 
   const onFinish = (values) => {
     console.log(values);
-    if (values.statusPembayaran === "lunas") {
+    if (values.statusPembayaran === "Lunas") {
       values.sisaPembayaran = 0;
       values.uangMuka = 0;
     }
@@ -213,7 +213,7 @@ function CartPage() {
             </Select>
           </Form.Item>
           <Form.Item
-            initialValue={"Lunas", {sisaPembayaran: 0, uangMuka: 0}}
+            initialValue={"Lunas"}
             name="statusPembayaran"
             label="Pembayaran"
           >
